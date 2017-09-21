@@ -40,8 +40,8 @@ public class ItemList {
 	}
 	
 	public String[] getArray(){
-		String[] Arr = new String[this.item.size()];
-		Arr = this.item.toArray(Arr);
+		String[] Arr=new String[this.item.size()];
+		Arr= this.item.toArray(Arr);
 		return Arr;
 	}
 	
