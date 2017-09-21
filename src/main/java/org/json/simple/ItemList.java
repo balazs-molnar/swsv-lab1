@@ -40,7 +40,7 @@ public class ItemList {
 	}
 	
 	public String[] getArray(){
-		String[] Arr=new String[this.item.size()];
+	        String[] Arr=new String[this.item.size()];
 	        return this.item.toArray(Arr);
 	}
 	
